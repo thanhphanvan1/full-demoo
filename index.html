@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signature Solutions</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style> 
+      @font-face {
+        font-family: SVN-Poppins;
+        src: url('./assets/fonts/SVN-Poppins/SVN-Poppins-Regular.ttf') format('truetype');
+        font-weight: 300;
+        font-style: normal
+        }
+
+    @font-face {
+        font-family: SVN-Poppins;
+        src: url('./assets/fonts/SVN-Poppins/SVN-Poppins-Bold.ttf') format('truetype');
+        font-weight: 800;
+        font-style: normal
+}
+        
+        * {
+           font-family: SVN-Poppins, sans-serif !important;
+           font-size: 20px;
+           font-weight:300;
+        }
+        </style>
+</head>
+<body>
+    <div id="main">
+        <!-- HEADER  -->
+        <div id="header">
+            <a href="#" class="logo">
+                <img src="./assets/img/logo.png" alt="" class="img-logo">
+            </a>
+            <div class="nav-pc">
+                <ul class="nav-list-pc">
+                    <li class="nav-item-pc">
+                        <a href="#">Trang chủ</a>
+                    </li>
+                    <li class="nav-item-pc">
+                        <a href="#">Về công ty</a>
+                    </li>
+                    <li class="nav-item-pc">
+                        <a href="#">Dịch vụ</a>
+                    </li>
+                    <li class="nav-item-pc">
+                        <a href="#">Đối tác</a>
+                    </li>
+                    <li class="nav-item-pc">
+                        <a href="#">Dự án</a>
+                    </li>
+                    <li class="nav-item-pc">
+                        <a href="#">HSNL</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="header-contact">
+                <div class="header-dropdown text-center">
+                    <img src="./assets/img/icon_vi.png" alt="">
+                    <span>Tiếng Việt</span>
+                    <div>
+                        <svg class="text-center center" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 320 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M182.6 470.6c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-9.2-9.2-11.9-22.9-6.9-34.9s16.6-19.8 29.6-19.8H288c12.9 0 24.6 7.8 29.6 19.8s2.2 25.7-6.9 34.9l-128 128z"/></svg>
+                    </div>
+                    <div class="language">
+                        <div class="languge-1">
+                            <img src="./assets/img/icon_us.png" alt="">
+                            <span>EngLish</span>
+                        </div>
+                        <div class="languge-1">
+                            <img src="./assets/img/icon_vi.png" alt="">
+                            <span>Tiếng Việt</span>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn-contact">Liên hệ</a>
+            </div>
+            
+
+            <label for="nav-input" class="nav_bars-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>
+            </label>
+            <input type="checkbox" hidden name="" id="nav-input" class="nav-mb-input">
+            <label for="nav-input" class="nav_overlay">
+            </label>
+            <div class="nav-mb">
+                <ul class="nav-list-mb">
+                    <li class="nav-item-mb">
+                        <a href="#">Trang chủ</a>
+                    </li>
+                    <li class="nav-item-mb">
+                        <a href="#">Về công ty</a>
+                    </li>
+                    <li class="nav-item-mb">
+                        <a href="#">Dịch vụ</a>
+                    </li>
+                    <li class="nav-item-mb">
+                        <a href="#">Đối tác</a>
+                    </li>
+                    <li class="nav-item-mb">
+                        <a href="#">Dự án</a>
+                    </li>
+                    <li class="nav-item-mb">
+                        <a href="#">HSNL</a>
+                    </li>
+                </ul>
+                <div class="header-contact">
+                    <div class="header-dropdown text-center">
+                        <img src="./assets/img/icon_vi.png" alt="">
+                        <span>Tiếng Việt</span>
+                        <div>
+                            <svg class="text-center center" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 320 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M182.6 470.6c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-9.2-9.2-11.9-22.9-6.9-34.9s16.6-19.8 29.6-19.8H288c12.9 0 24.6 7.8 29.6 19.8s2.2 25.7-6.9 34.9l-128 128z"/></svg>
+                        </div>
+                        <div class="language">
+                            <div class="languge-1">
+                                <img src="./assets/img/icon_us.png" alt="">
+                                <span>EngLish</span>
+                            </div>
+                            <div class="languge-1">
+                                <img src="./assets/img/icon_vi.png" alt="">
+                                <span>Tiếng Việt</span>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="btn-contact">Liên hệ</a>
+                </div>
+            </div>
+        </div>
+        <!-- END HEADER -->
+
+        <!-- SLIDER  -->
+        <div id="slider">
+            <div class="slider-des">
+                <img src="./assets/img/logo_big.png" alt="" class="logo-big mb-32">
+                <p class="white-text mb-24">Superior Quality</p>
+                <p class="blue-text mb-80">Sustainable Value</p>
+                <a href="#" class="contact">Liên hệ ngay</a>
+            </div>
+        </div>
+        <!-- END SLIDER  -->
+
+        <!-- CONTENT  -->
+        <div id="content">
+            <div class="grid content-section">
+                <div class="row about-section">
+                    <div class="col l-7">
+                        <span class="blue-title">Giới thiệu</span>
+                        <span class="black-title">Về chúng tôi</span>
+                        <p class="sub-text mt-32">
+                            Tiến bộ công nghệ là một xu hướng mà chúng ta không thể dừng lại. Chúng ta phải sử dụng công nghệ để làm cho cuộc sống dễ dàng hơn. Hãy bắt đầu từ những thứ mà mọi người xung quanh đang cần.
+                        </p>
+                        <p class="sub-text mt-8">Công ty Signature Solutions JSC sẽ lấy tiêu chí làm từ cái nhỏ để từng bước xậy dựng nên những thứ lớn hơn. Với sự quyết tâm cao và kinh nghiệm của mình, chúng tôi sẽ cố gắng hết sức thể hiện được trí tuệ và năng lực của người Việt Nam, đồng thời đem công nghệ đến gần với cuộc sống hơn.</p>
+                        <a href="#" class="contact mt-32">HSNL</a>
+                    </div>
+                    <div class="col l-5 text-center">
+                        <img src="./assets/img/logo (1).png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="footer-about text-center">
+                <h3 class="white-title">TIÊU CHÍ CỦA CHÚNG TÔI</h3>
+                <p class="sub-text text-center">
+                    Signature Solutions JSC hướng tới trở thành một đối tác công nghệ chiến lược - tin cậy cùng đối tác và khách hàng, cùng nghiên cứu, phát triển và đồng hành trên hành trình số hóa sản phẩm và quy trình nghiệp vụ cho các bài toán kinh doanh
+                </p>
+                <div class="footer-about-list">
+                    <div class="footer-about-item">
+                        Chất lượng
+                    </div>
+                    <div class="footer-about-item">
+                        Tin cậy
+                    </div>
+                    <div class="footer-about-item">
+                        Bền vững
+                    </div>
+                </div>
+            </div>
+
+            <!-- SERVICE  -->
+            <div class="grid content-section service-section">
+               <div class="title text-center">
+                <span class="blue-title">Dịch vụ</span>
+                <span class="black-title">Của chúng tôi</span>
+               </div>
+               <p class="sub-text text-center mb-32">
+                Chúng tôi cung cấp Dịch vụ và Giải pháp công nghệ ổn định, chất lượng và tối ưu nhất.
+               </p>
+               <div class="row">
+                <div class="col l-4 m-12 c-12">
+                    <div class="service-item">
+                    <div class="service-item-sm">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zm-141.651-35.33c4.937-32.999-20.191-50.739-54.55-62.573l11.146-44.702-27.213-6.781-10.851 43.524c-7.154-1.783-14.502-3.464-21.803-5.13l10.929-43.81-27.198-6.781-11.153 44.686c-5.922-1.349-11.735-2.682-17.377-4.084l.031-.14-37.53-9.37-7.239 29.062s20.191 4.627 19.765 4.913c11.022 2.751 13.014 10.044 12.68 15.825l-12.696 50.925c.76.194 1.744.473 2.829.907-.907-.225-1.876-.473-2.876-.713l-17.796 71.338c-1.349 3.348-4.767 8.37-12.471 6.464.271.395-19.78-4.937-19.78-4.937l-13.51 31.147 35.414 8.827c6.588 1.651 13.045 3.379 19.4 5.006l-11.262 45.213 27.182 6.781 11.153-44.733a1038.209 1038.209 0 0 0 21.687 5.627l-11.115 44.523 27.213 6.781 11.262-45.128c46.404 8.781 81.299 5.239 95.986-36.727 11.836-33.79-.589-53.281-25.004-65.991 17.78-4.098 31.174-15.792 34.747-39.949zm-62.177 87.179c-8.41 33.79-65.308 15.523-83.755 10.943l14.944-59.899c18.446 4.603 77.6 13.717 68.811 48.956zm8.417-87.667c-7.673 30.736-55.031 15.12-70.393 11.292l13.548-54.327c15.363 3.828 64.836 10.973 56.845 43.035z"/></svg>
+                        <p class="sub-text">ITO, Tư vấn + Triển khai các giải pháp công nghệ: Fintech, Blockchain...</p>
+                    </div>
+                    <p class="service-title text-center">Signature Solutions</p>
+                </div>
+                </div>
+
+                <div class="col l-4 m-12 c-12">
+                    <div class="service-item">
+                    <div class="service-item-sm">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 640 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M144 480C64.5 480 0 415.5 0 336c0-62.8 40.2-116.2 96.2-135.9c-.1-2.7-.2-5.4-.2-8.1c0-88.4 71.6-160 160-160c59.3 0 111 32.2 138.7 80.2C409.9 102 428.3 96 448 96c53 0 96 43 96 96c0 12.2-2.3 23.8-6.4 34.6C596 238.4 640 290.1 640 352c0 70.7-57.3 128-128 128H144zm79-217c-9.4 9.4-9.4 24.6 0 33.9s24.6 9.4 33.9 0l39-39V392c0 13.3 10.7 24 24 24s24-10.7 24-24V257.9l39 39c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-80-80c-9.4-9.4-24.6-9.4-33.9 0l-80 80z"/></svg>           <p class="sub-text">Giải pháp công nghệ điện toán đám mây cho doanh nghiệp vừa và nhỏ.</p>
+                    </div>
+                    <p class="service-title text-center">Signature Cloud</p>
+                </div>
+                </div>
+
+                <div class="col l-4 m-12 c-12">
+                    <div class="service-item">
+                    <div class="service-item-sm">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M176 24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64c-35.3 0-64 28.7-64 64H24c-13.3 0-24 10.7-24 24s10.7 24 24 24H64v56H24c-13.3 0-24 10.7-24 24s10.7 24 24 24H64v56H24c-13.3 0-24 10.7-24 24s10.7 24 24 24H64c0 35.3 28.7 64 64 64v40c0 13.3 10.7 24 24 24s24-10.7 24-24V448h56v40c0 13.3 10.7 24 24 24s24-10.7 24-24V448h56v40c0 13.3 10.7 24 24 24s24-10.7 24-24V448c35.3 0 64-28.7 64-64h40c13.3 0 24-10.7 24-24s-10.7-24-24-24H448V280h40c13.3 0 24-10.7 24-24s-10.7-24-24-24H448V176h40c13.3 0 24-10.7 24-24s-10.7-24-24-24H448c0-35.3-28.7-64-64-64V24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H280V24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H176V24zM160 128H352c17.7 0 32 14.3 32 32V352c0 17.7-14.3 32-32 32H160c-17.7 0-32-14.3-32-32V160c0-17.7 14.3-32 32-32zm192 32H160V352H352V160z"/></svg>                        <p class="sub-text">Semiconductor (chất bán dẫn), sản xuất, Research Lab, Training..
+                        </p>
+                    </div>
+                    <p class="service-title text-center">Signature Hi-Tech</p>
+                </div>
+                </div>
+                
+               </div>
+            </div>
+            <div class="grid content-section">
+                <div class="row service-solution">
+                    <div class="col l-7">
+                        <div class="left">
+                            <span class="blue-title">Signature</span>
+                            <span class="black-title">Solutions</span>
+                            <p class="sub-text mb-32">Chúng tôi tận dụng tối đa lợi ích của công nghệ để giúp khách hàng nâng cao hiệu suất, tối ưu hóa quy trình và tăng cường sức cạnh tranh trên thị trường. Các giải pháp chúng tôi cung cấp :</p>
+                            <div class="row column">
+                                <div class="col l-6 m-6 c-12">
+                                    <div class="solution-item">
+                                        <div class="title-solution">
+                                            <p class="sub-text text-center">Xây dựng và phát triển hệ thống</p>
+                                        </div>
+                                        <div class="solution-sub">
+                                            <div class="column-item">
+                                                <li><a href="#">.Net</a></li>
+                                                <li><a href="#">NodeJS</a></li>
+                                                <li><a href="#">PHP</a></li>
+                                                <li><a href="#">MySQL</a></li>
+                                            </div>
+                                            <div class="column-item">
+                                                <li><a href="#">MongoDB</a></li>
+                                                <li><a href="#">Postgresal</a></li>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col l-6 m-6 c-12">
+                                    <div class="solution-item">
+                                        <div class="title-solution">
+                                            <p class="sub-text text-center">Lập trình Website.</p>
+                                        </div>
+                                        <div class="solution-sub">
+                                            <div class="column-item">
+                                                <li><a href="#">HTML</a></li>
+                                                <li><a href="#">CSS</a></li>
+                                                <li><a href="#">VueJS</a></li>
+                                                <li><a href="#">ReactJS</a></li>
+                                            </div>
+                                            <div class="column-item">
+                                                <li><a href="#">WordPress</a></li>
+                                                <li><a href="#">PHP Laravel</a></li>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col l-6 m-6 c-12">
+                                    <div class="solution-item">
+                                        <div class="title-solution">
+                                            <p class="sub-text text-center">Lập trình ứng dụng App Mobile.</p>
+                                        </div>
+                                        <div class="solution-sub">
+                                            <div class="column-item">
+                                                <li><a href="#">Objective-C</a></li>
+                                                <li><a href="#">Swift</a></li>
+                                                <li><a href="#">Java</a></li>
+                                                <li><a href="#">Android</a></li>
+                                            </div>
+                                            <div class="column-item">
+                                                <li><a href="#">Kotlin</a></li>
+                                                <li><a href="#">React Native</a></li>
+                                                <li><a href="#">Flutter</a></li>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col l-6 m-6 c-12">
+                                    <div class="solution-item">
+                                        <div class="title-solution">
+                                            <p class="sub-text text-center">Tư vấn & triển khai các Giải pháp CN</p>
+                                        </div>
+                                        <div class="solution-sub">
+                                            <div class="column-item">
+                                                <li><a href="#">Fintech</a></li>
+                                                <li><a href="#">Blockchain</a></li>
+                                                <li><a href="#">Golf</a></li>
+                                                <li><a href="#">Social Network</a></li>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-5">
+                        <div class="row solution-img">
+                            <img src="./assets/img/sol_img_1.jpg" alt="" class="col l-6">
+                            <img src="./assets/img/sol_img_2.jpg" alt="" class="col l-6">
+                        </div>
+                        <div class="row solution-img">
+                            <img src="./assets/img/sol_img_3.jpeg" alt="" class="col l-12">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SIGNATURE-CLOUD  -->
+            <div class="grid content-section signature-cloud">
+                <div class="row cloud">
+                    <div class="col l-5">
+                        <div class="row cloud-img">
+                            <img src="./assets/img/cloud_img_1.jpeg" alt="" class="col l-7">
+                            <img src="./assets/img/cloud_img_2.jpeg" alt="" class="col l-5">
+                        </div>
+                        <div class="row cloud-img">
+                            <img src="./assets/img/cloud_img_3.jpeg" alt="" class="col l-12">
+                        </div>
+                    </div>
+                    <div class="cloud-item col l-7">
+                        <p class="white-title mt-8 mb-32">Signature Cloud</p>
+                        <p class="sub-text">Xu hướng chuyển đổi số diễn ra ngày càng mạnh mẽ tại Việt Nam. Các doanh nghiệp SMEs cũng không đứng ngoài sự chuyển dịch đó.Signature Solutions hiểu rõ điều đó ,đồng thời muốn đồng hành cùng doanh nghiệp SMEs trên hành trình chuyển dịch của Cuộc cách mạng số 4.0.</p>
+                        <p class="sub-text">Hạ tầng CNTT thông tin là bước đầu tiên cho sự chuyển dịch số của bất cứ doanh nghiệp nào. Signature Solutions cung cấp dịch vụ Cloud cho các Doanh nghiệp vừa và nhỏ theo tiêu chí:</p>
+                        <ul class="cloud-sm-item">
+                            <li>
+                                <img src="./assets/img/cloud_icon_1.svg" alt="">
+                                <span>Khởi tạo nhanh chóng.</span>
+                            </li>
+                            <li>
+                                <img src="./assets/img/cloud_icon_2.svg" alt="">
+                                <span>Hệ thống đảm bảo tính ổn định để vận hành.</span>
+                            </li>
+                            <li>
+                                <img src="./assets/img/cloud_icon_3.svg" alt="">
+                                <span>Chi phí phù hợp với nhu cầu dụng thực tế.</span>
+                            </li>
+                            <li>
+                                <img src="./assets/img/cloud_icon_4.svg" alt="">
+                                <span>Đầy đủ dịch vụ sử dụng: VM, VPS, AutoScalling, Database.</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="ellipse"></div>
+
+            <!-- SIGNATUE-HITECH  -->
+            <div class="grid content-section">
+                <div class="row signature-hitech">
+                    <div class="title text-center">
+                        <span class="blue-title">Signature</span>
+                        <span class="black-title">Hi-tech</span>
+                    </div>
+                    <p class="sub-text mb-8">Được dẫn dắt và hướng dẫn của chuyên gia của Mỹ, chúng tôi nghiên cứu và đầu tư vào lĩnh vực chất bán dẫn, đặc biệt là công nghệ 5G.</p>
+                    <ul class="tech-list">
+                        <li>
+                            <img src="./assets/img/tech_icon_1.svg" alt="">
+                            <span class="sub-text"><strong>Công nghệ bán dẫn:</strong> Nghiên cứu công nghệ chất bán dẫn ứng dụng trong Công nghệ 5G.</span>
+                        </li>
+                        <li>
+                            <img src="./assets/img/tech_icon_2.svg" alt="">
+                            <span class="sub-text"><strong>Research Lab:</strong> Xây dựng Lab nghiên cứu về cộng nghệ chất bán dẫn.</span>
+                        </li>
+                        <li>
+                            <img src="./assets/img/tech_icon_3.svg" alt="">
+                            <span class="sub-text"><strong>Sản xuất và Kinh doanh:</strong> Đưa vào sản xuất và hướng tới kinh doanh tại thị trường Việt Nam.</span>
+                        </li>
+                        <li>
+                            <img src="./assets/img/tech_icon_4.svg" alt="">
+                            <span class="sub-text"><strong>Tư vấn và Đào tạo:</strong> Mang kiến thức về Công nghệ bán dẫn đào tạo , chia sẻ với sinh viên tại các trường Đại học.</span>
+                        </li>
+                    </ul>
+                    <div class="tech-img">
+                        <img src="./assets/img/tech_img_1.jpeg" alt="">
+                        <img src="./assets/img/tech_img_2.jpeg" alt="">
+                        <img src="./assets/img/tech_img_3.jpeg" alt="">
+                    </div>
+                </div>
+            </div>
+            
+            <!-- CUSTOMER  -->
+            <div class="grid content-section">
+                <div class="customer-section">
+                    <div class="title text-center">
+                        <span class="blue-title">đối tác</span>
+                        <span class="black-title">& khách hàng</span>
+                    </div>
+                    <div class="text">
+                        <p class="sub-text">
+                            Trong phát triển kinh doanh trong bất kỳ ngành nghề nào, thì vấn đề Đối tác - Khách hàng luôn phải song hành cùng nhau và là tiền đề bảo đảm cho sự thành công của tất cả các doanh nghiệp.
+                        </p>
+                        <p class="sub-text">
+                            Tại sao lại có tầm quan trọng như vậy? Vì mối quan hệ với đối tác và quý khách hàng giúp công ty hoàn thiện hệ thống sản phẩm và dịch vụ chất lượng đồng thời mở rộng ra các chi nhánh trên cả nước.
+                        </p>
+                        <p class="sub-text">
+                            Nhận thức được tầm quan trọng này, <strong> Signature Solutions</strong> đã luôn chú trọng việc xây dựng mối quan hệ dựa trên những đối tác vững chắc và dịch vụ khách hàng chuyên nghiệp, mang đến cho khách hàng sự hài lòng khi sử dụng hàng hóa & dịch vụ do Công ty chúng tôi đang cung cấp.
+                        </p>
+                        <p class="sub-text">
+                            Chính vì vậy, <strong> Signature Solutions</strong> đã ngày càng chiếm được niềm tin và gắn bó lâu dài của các đối tác - khách hàng.
+                        </p>
+                    </div>
+                    
+                    <div class="circle"></div>
+                    <div class="circle-1"></div>
+                    <div class="customer-list">
+                        <img src="./assets/img/left_arrow.png" alt="">
+                        <img src="./assets/img/1.png" alt="">
+                        <img src="./assets/img/3.png" alt="">
+                        <img src="./assets/img/2.png" alt="">
+                        <img src="./assets/img/5.png" alt="">
+                        <img src="./assets/img/7.png" alt="">
+                        <img src="./assets/img/right_arrow.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <!-- PROJECT  -->
+            <div class="grid content-section">
+                <div class="project-section">
+                    <div class="title text-center">
+                        <span class="blue-title">Dự án</span>
+                        <span class="black-title">đã phát triển</span>
+                    </div>
+                    <div class="row">
+                        <div class="col l-4">
+                            <div class="project-img">
+                                <img src="./assets/img/project/project_img_1.jpeg" alt="">
+                                <p class="sub-text text-center">Fintech: Lending, Investment</p>
+                            </div>
+                        </div>
+                        <div class="col l-4">
+                            <div class="project-img">
+                                <img src="./assets/img/project/project_img_2.jpeg" alt="">
+                                <p class="sub-text text-center">Blockchain: Stablecoin, Market, P2P, Launching Pad</p>
+                            </div>
+                        </div>
+                        <div class="col l-4">
+                            <div class="project-img">
+                                <img src="./assets/img/project/project_img_3.jpeg" alt="">
+                                <p class="sub-text text-center">Blockchain & Metaverse: VR, VR360, AR, 3D Map, Token</p>
+                            </div>
+                        </div>
+                        <div class="col l-4">
+                            <div class="project-img">
+                                <img src="./assets/img/project/project_img_4.jpeg" alt="">
+                                <p class="sub-text text-center">NFT & NTF Marketplace</p>
+                            </div>
+                        </div>
+                        <div class="col l-4">
+                            <div class="project-img">
+                                <img src="./assets/img/project/project_img_5.jpeg" alt="">
+                                <p class="sub-text text-center">Social Network</p>
+                            </div>
+                        </div>
+                        <div class="col l-4">
+                            <div class="project-img">
+                                <img src="./assets/img/project/project_img_6.jpeg" alt="">
+                                <p class="sub-text text-center">More+</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- RATE  -->
+            <div class="grid content-section">
+                <div class="rate-section">
+                    <div class="title text-center">
+                        <span class="blue-title">Đánh giá từ</span>
+                        <span class="black-title">khách hàng</span>
+                    </div>
+                    <div class="row">
+                        <div class="col l-4">
+                            <div class="rate-item">
+                                <div class="user">
+                                    <img src="./assets/img/avatar/ava_1.jpg" alt="">
+                                    <div class="name">
+                                        <h3>Nguyễn Trung Đức</h3>
+                                        <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#fdb10d}</style><path d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"/></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#fdb10d}</style><path d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"/></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#fdb10d}</style><path d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"/></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#fdb10d}</style><path d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"/></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#fdb10d}</style><path d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"/></svg>
+                                    </div>
+                                </div>
+                                <p class="sub-text">Signature Solutions đã chứng tỏ là một nhà cung câp dịch vụ chuyên nghiệp ngay từ đầu. Chúng tôi đánh giá cao các tiếp cận chủ động, kiến thức công nghệ và những đề xuất nâng cao hiệu quả trong việc nâng cấp hệ thống ứng dụng của chúng tôi.</p>
+                            </div>
+                        </div>
+                        <div class="col l-4">
+                            <div class="rate-item">
+                                <div class="user">
+                                    <img src="./assets/img/avatar/ava_2.jpg" alt="">
+                                    <div class="name">
+                                        <h3>Phan Anh Minh</h3>
+                                        <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#fdb10d}</style><path d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"/></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#fdb10d}</style><path d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"/></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#fdb10d}</style><path d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"/></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#fdb10d}</style><path d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"/></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#fdb10d}</style><path d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"/></svg>
+                                    </div>
+                                </div>
+                                <p class="sub-text">Chúng tôi biết rằng chúng tôi luôn có thể dựa vào các năng lực công nghệ, con người của Signature Solutions để phát triển hệ thống phần mềm chất lượng với chi phí tối ưu sẽ tạo điều kiện thuận lợi cho việc đẩy nhanh số hoá quy trình vận hành và kinh doanh của chúng tôi.</p>
+                            </div>
+                        </div>
+                        <div class="col l-4">
+                            <div class="rate-item">
+                                <div class="user">
+                                    <img src="./assets/img/avatar/ava_3.jpg" alt="">
+                                    <div class="name">
+                                        <h3>Trần Ánh Dương</h3>
+                                        <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#fdb10d}</style><path d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"/></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#fdb10d}</style><path d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"/></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#fdb10d}</style><path d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"/></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#fdb10d}</style><path d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"/></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#fdb10d}</style><path d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"/></svg>
+                                    </div>
+                                </div>
+                                <p class="sub-text">Dịch vụ thiết kế và tạo dựng website của Signature Solutions thật sự chuyên nghiệp. Chúng tôi được làm việc với đội ngũ nhân viên hỗ trợ nhiệt tình, quy trình làm việc rõ ràng. Khách hàng chúng tôi đánh giá cao ở khía cạnh UX , trải nghiệm về tính năng thân thiện khi vào website để sử dụng dịch vụ của chúng tôi.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="./assets/img/project_bg.png" alt="" class="project-blue">
+                </div>
+            </div>
+
+            <div class="grid content-section">
+                <div class="row contact-section">
+                    <div class="contact-form">
+                        <h2>Liên hệ</h2>
+                        <p class="sub-text">Liên hệ với chúng tôi để nhận thêm nhiều thông tin ưu đãi và trải nghiệm dịch vụ tốt hơn.</p>
+                        <div class="jsc">
+                            <span class="jsc-title">
+                                SIGNATURE SOLUTIONS JSC
+                            </span>
+                            <span class="sub-text">
+                                258 Xô Viết Nghệ Tĩnh, Phường Khuê Trung, Quận Cẩm Lệ, Thành phố Đà Nẵng
+                            </span>
+                        </div>
+                        <div class="email">
+                            <span class="contact-name">Email</span>
+                            <span class="sub-text">info@signaturejsc.com</span>
+                        </div>
+                        <div class="phone">
+                            <span class="contact-name">Phone</span>
+                            <span class="sub-text">0913425320</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END CONTENT  -->
+
+        <!-- FOOTER  -->
+        <div id="grid footer">
+            <div class="row footer-form">
+                <div class="col l-4 footer-img">
+                    <img src="./assets/img/footer_logo.png" alt="">
+                    <p class="sub-text">Chất lượng vượt trội - Giá trị bền vững</p>
+                </div>
+                <div class="col l-8 m-12 c-12  footer-list">
+                    <div class="col l-3 footer-menu">
+                        <h3>Menu</h3>
+                        <li class="footer-menu-item">
+                            <a href="#">Trang chủ</a>
+                        </li>
+                        <li class="footer-menu-item">
+                            <a href="#">Về công ty</a>
+                        </li>
+                        <li class="footer-menu-item">
+                            <a href="#">Dịch vụ</a>
+                        </li>
+                        <li class="footer-menu-item">
+                            <a href="#">Dự án</a>
+                        </li>
+                    </div>
+                    <div class="col l-6 m-12 c-12 footer-contact">
+                        <h3>Liên hệ</h3>
+                        <li class="footer-contact-item">
+                            <img src="./assets/img/icon_phone.png" alt="">
+                            <a href="#">0913425320</a>
+                        </li>
+                        <li class="footer-contact-item">
+                            <img src="./assets/img/icon_mail.png" alt="">
+                            <a href="#">info@signaturejsc.com</a>
+                        </li>
+                        <li class="footer-contact-item">
+                            <img src="./assets/img/icon_location.png" alt="">
+                            <a href="#">258 Xô Viết Nghệ Tĩnh, Phường Khuê Trung, Quận Cẩm Lệ, Thành phố Đà Nẵng</a>
+                        </li>
+                    </div>
+                    <div class="col l-3 m-12 c-12 social">
+                        <h3>Social Media</h3>
+                        <div class="social-item">
+                            <img src="./assets/img/logo_fb.png" alt="">
+                            <img src="./assets/img/logo_linkin.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <p class="copyright mt-16 text-center">Bản quyền © Signature Solutions JSC 2023</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
